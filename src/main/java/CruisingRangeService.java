@@ -1,4 +1,4 @@
-public class CruisingRange {
+public class CruisingRangeService {
     public int cruisingRange(int remainingFuelInMilliliters, int fuelConsumptionPer100KmInMilliliters) {
         if (fuelConsumptionPer100KmInMilliliters <= 0) {
             return 0;
