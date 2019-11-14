@@ -6,6 +6,6 @@ public class CruisingRangeService {
         if (remainingFuelInMilliliters < 0) {
             return 0;
         }
-            return remainingFuelInMilliliters * 100 / fuelConsumptionPer100KmInMilliliters;
+        return remainingFuelInMilliliters * 100 / fuelConsumptionPer100KmInMilliliters;
     }
 }
